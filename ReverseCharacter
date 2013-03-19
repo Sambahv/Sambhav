@@ -1,0 +1,15 @@
+using System;
+public class ReverseCharcter
+{
+    public static void Main(string[] sam)
+    {
+        string str = "Sambahv";
+        string OutputValue = "";
+        foreach (char st in str)
+        {
+            OutputValue = st + OutputValue;
+        }
+        Console.WriteLine(OutputValue);
+        Console.ReadLine();
+    }
+}
